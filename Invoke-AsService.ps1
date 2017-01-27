@@ -295,7 +295,7 @@ Function Invoke-AsService
 
     The function installs a service and runs it under the NT Authority\SYSTEM credentials. 
     In this context it will launch powershell.exe with the process token of the specified process. 
-    This enables us to impersonate any process.
+    This enables impersonation of any process.
 
 .PARAMETER Process
 
